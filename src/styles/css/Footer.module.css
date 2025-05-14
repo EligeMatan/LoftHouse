@@ -1,0 +1,26 @@
+.Footer {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Footer ul li {
+  list-style: none;
+}
+.Footer ul .liSocial {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.Footer ul .liSocial a {
+  background: transparent;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

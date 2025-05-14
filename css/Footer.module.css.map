@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/styles/scss/Footer.module.scss","Footer.module.css"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;ACCJ;ADCI;EACI,gBAAA;EACA,aAAA;EACA,sBAAA;EACA,SAAA;ACCR;ADCQ;EACI,gBAAA;ACCZ;ADEQ;EACI,aAAA;EACA,2BAAA;EACA,mBAAA;EACA,SAAA;ACAZ;ADEY;EACI,uBAAA;ACAhB","file":"Footer.module.css"}

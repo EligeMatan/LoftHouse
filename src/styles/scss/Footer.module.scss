@@ -1,0 +1,30 @@
+.Footer {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        li {
+            list-style: none;
+        }
+
+        .liSocial {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30px;
+            
+            a {
+                background: transparent;
+            }
+            
+        }
+    }
+
+}

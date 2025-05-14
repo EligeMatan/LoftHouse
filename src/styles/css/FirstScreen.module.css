@@ -1,0 +1,41 @@
+.FirstScreen {
+  background-image: linear-gradient(#242B33, rgba(45, 52, 60, 0.3803921569), #242B33), url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #D4C17F;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #D4C17F;
+  text-align: center;
+  width: 100%;
+}
+.content h1 {
+  font-size: 48px;
+  font-family: "Playfair Display";
+  width: 582px;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+}
+.content .contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 582px;
+  height: 400px;
+}
+.content .contacts span {
+  color: white;
+}
+
+/*# sourceMappingURL=FirstScreen.module.css.map */
