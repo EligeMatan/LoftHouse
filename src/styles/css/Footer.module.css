@@ -5,13 +5,9 @@
   align-items: center;
 }
 .Footer ul {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-.Footer ul li {
-  list-style: none;
 }
 .Footer ul li a {
   color: white;

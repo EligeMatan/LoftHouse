@@ -1,3 +1,4 @@
+import '@/styles/scss/global.scss';
 import styles from '@/styles/scss/Header.module.scss';
 import logo from '@/assets/first-screen__logo.png';
 

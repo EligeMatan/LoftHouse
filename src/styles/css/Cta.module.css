@@ -1,0 +1,12 @@
+.Cta {
+  background-image: linear-gradient(#242B33, rgba(45, 52, 60, 0.3803921569), #242B33), url("./background_cta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=Cta.module.css.map */

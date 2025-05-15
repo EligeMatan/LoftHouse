@@ -1,3 +1,4 @@
+import '@/styles/scss/global.scss';
 import styles from '@/styles/scss/Footer.module.scss';
 import logo from '@/assets/first-screen__logo.png';
 import { Youtube } from 'react-bootstrap-icons';

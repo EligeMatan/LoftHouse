@@ -1,0 +1,20 @@
+h1 {
+  font-size: 2.25rem;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #D4C17F;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  list-style: none;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/*# sourceMappingURL=global.css.map */

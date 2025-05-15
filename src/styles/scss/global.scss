@@ -1,0 +1,21 @@
+$ul-text-color: white;
+
+h1 {
+    font-size: 2.25rem;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    color: #D4C17F
+}
+
+ul {
+    list-style: none;
+
+    li {
+        list-style: none;
+        color: $ul-text-color;
+    }
+}
+
+p {
+    color: white;
+}
