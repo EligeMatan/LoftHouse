@@ -2,15 +2,18 @@ $width-content: 582px;
 
 .FirstScreen {
     background-image: linear-gradient(#242B33, #2d343c61, #242B33),
-        url('/background.jpg');
+        url('./background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    color: #D4C17F;
 
+    min-height: 100vh;
+    width: 100%;
+    
     display: flex;
     flex-direction: column;
+
+    color: #D4C17F;
 }
 
 .content {
@@ -23,7 +26,7 @@ $width-content: 582px;
     text-align: center;
     width: 100%;
 
-    
+
     h1 {
         font-size: 48px;
         font-family: 'Playfair Display';

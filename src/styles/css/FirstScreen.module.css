@@ -1,12 +1,13 @@
 .FirstScreen {
-  background-image: linear-gradient(#242B33, rgba(45, 52, 60, 0.3803921569), #242B33), url("/background.jpg");
+  background-image: linear-gradient(#242B33, rgba(45, 52, 60, 0.3803921569), #242B33), url("./background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: #D4C17F;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  color: #D4C17F;
 }
 
 .content {

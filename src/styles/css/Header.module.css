@@ -20,7 +20,12 @@
   cursor: pointer;
   transition: color 0.2s;
 }
-.navList li:hover {
+.navList li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.navList li a:hover {
   color: #007bff;
 }
 

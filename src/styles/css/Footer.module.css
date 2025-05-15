@@ -13,6 +13,10 @@
 .Footer ul li {
   list-style: none;
 }
+.Footer ul li a {
+  color: white;
+  text-decoration: none;
+}
 .Footer ul .liSocial {
   display: flex;
   justify-content: flex-start;

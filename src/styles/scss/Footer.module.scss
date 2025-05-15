@@ -12,6 +12,11 @@
 
         li {
             list-style: none;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
         }
 
         .liSocial {
@@ -19,11 +24,11 @@
             justify-content: flex-start;
             align-items: center;
             gap: 30px;
-            
+
             a {
                 background: transparent;
             }
-            
+
         }
     }
 
