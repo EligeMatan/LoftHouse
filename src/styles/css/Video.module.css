@@ -1,3 +1,18 @@
-
+.Video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.Video iframe {
+  width: 720px;
+  height: 650px;
+}
+.Video iframe .ytp-large-play-button {
+  background: white !important;
+  content: "" !important;
+}
 
 /*# sourceMappingURL=Video.module.css.map */

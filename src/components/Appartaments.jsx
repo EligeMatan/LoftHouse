@@ -15,14 +15,17 @@ export default function Appartaments() {
           <img src={loftolimp} alt="Loft Olimp" />
           <p>Пентхаус “Loft Олімп”</p>
         </div>
+
         <div className={styles.Item}>
           <img src={niceloft} alt="Nice Loft" />
           <p>Апартаменти “Nice Loft”</p>
         </div>
+        
         <div className={styles.Item}>
           <img src={loftstudio} alt="Loft Studio" />
           <p>Апартаменти “Loft Studio”</p>
         </div>
+        
         <div className={styles.Item}>
           <img src={prestizh} alt="Престиж" />
           <p>Loft квартира “Престиж”</p>

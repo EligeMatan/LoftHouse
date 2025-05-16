@@ -6,26 +6,31 @@ import { Instagram } from 'react-bootstrap-icons';
 import { Facebook } from 'react-bootstrap-icons';
 
 export default function Footer() {
+
+    const handleLinkClick = (event) => {
+        alert('Замовник ще не надав макет по цій сторінці ;)')
+    }
+
     return (
         <footer className={styles.Footer}>
             <img src={logo} alt="Логотип" />
             <ul className={styles.navList}>
-                <li>Про комплекс</li>
-                <li>Район</li>
-                <li>Каталог квартир</li>
-                <li>Іпотека</li>
-                <li>Контакти</li>
+                <li><a href='#' onClick={handleLinkClick}> Про комплекс</a></li>
+                <li><a href='#geoplace'> Район</a></li>
+                <li><a href='#' onClick={handleLinkClick}> Каталог квартир</a></li>
+                <li><a href='#' onClick={handleLinkClick}> Іпотека</a></li>
+                <li><a href='#contacts'> Контакти</a></li>
             </ul>
 
             <ul className="serviceList">
-                <li>Поселення та переїзд</li>
-                <li>Сервісні послуги</li>
-                <li>Екологічна стійкість</li>
-                <li>Інвестиційні можливості</li>
-                <li>Програма лояльності</li>
+                <li><a href='#' onClick={ handleLinkClick }>Поселення та переїзд</a></li>
+                <li><a href='#' onClick={ handleLinkClick }>Сервісні послуги</a></li>
+                <li><a href='#' onClick={ handleLinkClick }>Екологічна стійкість</a></li>
+                <li><a href='#' onClick={ handleLinkClick }>Інвестиційні можливості</a></li>
+                <li><a href='#' onClick={ handleLinkClick }>Програма лояльності</a></li>
             </ul>
 
-            <ul className="contactList">
+            <ul id='#contacts' className="contactList">
                 <li>Адреса: вулиця Межигірська, 78</li>
                 <li>Телефон: +38 063 652-26-18</li>
                 <li>Відділ продажів: 10:00 - 20:00</li>

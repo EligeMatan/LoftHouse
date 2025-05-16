@@ -10,6 +10,7 @@ html, body {
   height: 100%;
   font-family: sans-serif;
   background: #242B33;
+  scroll-behavior: smooth;
 }
 
 #root {

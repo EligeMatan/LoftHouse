@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Video.module.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/Video.module.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EAEA;;AAEA;EACI;EACA;;AAEA;EACI;EACA","file":"Video.module.css"}
